@@ -6,17 +6,6 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
-body {
-	line-height: 1;
-}
-
-blockquote, q {
-	quotes: none;
-}
 
 
 #main {
@@ -27,7 +16,7 @@ blockquote, q {
 }
 
 #title {
-max-width: 620;
+max-width: 620px;
 margin: 20px 5px;
 padding: 40px;
 border-color: rgba(215, 215, 215, 0);
@@ -41,11 +30,12 @@ margin-right:auto;
 .videos {
 justify-content: center;
 height: auto;
+width: 100%;
 display:block;
 margin-left: auto;
 margin-right:auto;
-max-width: 600;
-height: 315;
+max-width: 660px;
+height: 315px;
 }
 
 body{
@@ -55,7 +45,7 @@ color: rgb(0, 0, 0);
 }
 
 body nav {
-max-width: 700;
+max-width: 700px;
 display:block;
 margin-left: auto;
 margin-right:auto;
@@ -89,7 +79,7 @@ font-family: Tahoma;
 font-size: small;
 }
 #p-music {
-width: 400;
+width: 400px;
 text-align: left;
 
 }
@@ -128,20 +118,19 @@ display:block;
 margin-left: auto;
 margin-right:auto;
 box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 60px rgba(0,0,0,0.23);
-max-width: 600;
+max-width: 600px;
 background-color: rgba(255, 255, 255, 0); 
 padding: 60px 50px 40px 50px;
 }
 
 #image{
 display:block;
-justify-content: center;
+  margin-left: auto;
+margin-right:auto;
 height: auto;
 width: 100%;
-max-width: 100%;
+max-width: 550px;
 max-height: 350px;
-
-border-color: rgba(0, 0, 0, 0);
 background-color: rgba(255, 255, 255, 0); 
 box-shadow: 0 10px 20px rgba(0,0,0,.59), 0 6px 60px rgba(0,0,0,0.23);
 
@@ -155,27 +144,26 @@ padding: 8
 
 .mishima {
 
-padding: 40px 100px 10px 100px;
+padding: 40px 100px 40px 100px;
 display:block;
 margin-left: auto;
 margin-right:auto;
 max-width: 450px;
-max-height: 200px;
+max-height: 300px;
 background-color: rgb(233, 233, 233);
 box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 60px rgba(0,0,0,0.23);
 }
 
 #mishimaImage {
 max-width: 450px;
-max-height: 200px;
+max-height: 150px;
 float: left;
-height: 150px;
-padding-right: 30;
+padding-right: 30px;
 }
 
 .musicPlayer {
 
 position: relative;
-bottom: 55;
+bottom: 56;
 left: 120;
 }
