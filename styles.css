@@ -144,7 +144,7 @@ padding: 8
 
 .mishima {
 
-padding: 40px 100px 40px 100px;
+padding: 40px 100px 50px 100px;
 display:block;
 margin-left: auto;
 margin-right:auto;
@@ -164,6 +164,6 @@ padding-right: 30px;
 .musicPlayer {
 
 position: relative;
-bottom: 56;
-left: 120;
+bottom: -21px;
+left: -3px;
 }
